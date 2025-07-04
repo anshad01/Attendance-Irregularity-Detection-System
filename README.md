@@ -6,13 +6,15 @@ This project automates the detection of irregular attendance patterns using mach
 
 ## 📁 Project Structure
 
-├── attendance_irregularity_dataset.csv # Sample attendance dataset
-├── sample_attendance_realtime.csv # Realtime attendance input (optional)
-├── main.py # Core logic (data processing, ML, report generation)
-├── sample.py # Simple email test script using Gmail SMTP
-├── streamlit_email_alert.py # Streamlit-based web UI for detection and emailing
-├── monthly_attendance_report.txt # Example output report
-└── README.md # Project documentation
+.
+├── attendance_irregularity_dataset.csv     # Sample attendance dataset
+├── sample_attendance_realtime.csv          # Realtime attendance input (optional)
+├── main.py                                 # Core logic (data processing, ML, report generation)
+├── sample.py                               # Simple email test script using Gmail SMTP
+├── streamlit_email_alert.py                # Streamlit-based web UI for detection and emailing
+├── monthly_attendance_report.txt           # Example output report
+└── README.md                               # Project documentation
+
 
 
 ---
@@ -54,21 +56,9 @@ This project automates the detection of irregular attendance patterns using mach
 - Required libraries:
   ```bash
   pip install pandas scikit-learn streamlit
-##🌐 Run Web App (Streamlit)
-streamlit run streamlit_email_alert.py
 
-###.streamlit/secrets.toml
-EMAIL = "youremail@gmail.com"
-EMAIL_PASSWORD = "your_app_password"
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
 
-##📌 Sample Output
-
-👤 Student_14 (Student)
-   • Attendance Rate: 0.78
-   • Late Arrivals: 0
-   • Early Leaves: 0
+  
 
 
 
