@@ -1,0 +1,17 @@
+📢 Monthly Attendance Irregularity Report:
+
+👤 Student_14 (Student)
+   • Attendance Rate: 0.78
+   • Late Arrivals: 0
+   • Early Leaves: 0
+
+👤 Student_18 (Student)
+   • Attendance Rate: 0.89
+   • Late Arrivals: 0
+   • Early Leaves: 0
+
+👤 Staff_5 (Staff)
+   • Attendance Rate: 0.81
+   • Late Arrivals: 0
+   • Early Leaves: 0
+
