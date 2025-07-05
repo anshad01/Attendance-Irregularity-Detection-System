@@ -57,8 +57,9 @@ This project automates the detection of irregular attendance patterns using mach
   ```bash
   pip install pandas scikit-learn streamlit
 
+## 🌐 Run Web App (Streamlit)
+### 📌 Sample Output
 
-  
 
-
+![att](https://github.com/user-attachments/assets/a30aec98-43bc-49ad-9049-33b76ad12953)
 
